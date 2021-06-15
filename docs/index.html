@@ -24,6 +24,9 @@
 					<small><a href="https://twitter.com/volcan01010">Dr John A Stevenson</a> / <a href="https://twitter.com/volcan01010">@volcan01010</a></small>
 					</p>
 					<a href="https://www.bgs.ac.uk"><img src="https://resources.bgs.ac.uk/images/BGS-Logo-Pos-RGB.svg" width=400 style="background:white; border:15px solid white; box-shadow:none;"></a>
+					<aside data-markdown class="notes">
+						Talk aims to share experience of going open in BGS.
+					</aside>
 				</section>
 
 				<section>
@@ -36,10 +39,7 @@
 						and contributions to standards for data sharing e.g. <a href="https://www.bgs.ac.uk/news/geosciml-data-standard-becomes-official/">GeoSciML</a></li>
 						</ul>
 					<aside data-markdown class="notes">
-						### Some notes
-
-						+ and bullets
-						+[links](https://bgs.ac.uk)
+						650 staff, 70 in Digital are professional software developers and database experts.
 					</aside>
 					</section>
 					<section>
@@ -49,20 +49,30 @@
 						skills in proprietary technology; siloed confidential data; and
 						requirements of security standard certifications.</p>
 
+					<aside data-markdown class="notes">
+						Supply chain attacks injecting Bitcoin miners or ransomware are a worry.
+					</aside>
 					</section>
 					<section>
 						<h4>Tailwinds</h4>
 
 						<p>Going open is <i>helped</i> by: projects with external partners;
-						scientists/analysts adopting reproducible workflows; Innovation Flexible Funding
-						and supportive senior management.</p>
+						scientists adopting reproducible workflows; and supportive senior management.</p>
 
+					<aside data-markdown class="notes">
+						Change comes from the senior developer level as they are using the code day-to-day.
+						BGS hired senior developers with explicit interest in open source software.
+					</aside>
 					</section>
 				</section>
 				<section>
 					<section data-transition="fade-out">
 						<h4>Two dimensions of Coding in the Open</h4>
 						<img class="stretch" src="images/open_code_has_two_dimensions_00.svg">
+
+					<aside data-markdown class="notes">
+						[Coding in the Open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) GDS blog post.
+					</aside>
 					</section>
 					<section data-transition="fade-in">
 						<h4>Two dimensions of Coding in the Open</h4>
@@ -80,6 +90,9 @@
 						<li><i>2020-04:</i> Python Improvers training</li>
 						</ul>
 					</section>
+					<aside data-markdown class="notes">
+						Git and Python courses based on [Software Carpentry](https://software-carpentry.org).
+					</aside>
 
 					<section>
 						<h4>Proprietary tools + internal code</h4>
@@ -109,11 +122,11 @@
 						<li><i>2011-02:</i> Add INSPIRE capabilities to MapServer</li>
 						<li><i>2013-09:</i> First pull request to GeoServer</li>
 						<li><i>2018-07:</i> Launch of <a href="github.com/BritishGeologicalSurvey">github.com/BritishGeologicalSurvey</a></li>
-						<li><i>2019-03:</i> <a href="https://github.com/BritishGeologicalSurvey/O1362-observations">Viewing geotagged photos in QGIS</a></li>
-						<li><i>2019-09:</i> <a href="https://github.com/BritishGeologicalSurvey/etlhelper">ETL Helper</a></li>
-						<li><i>2019-10:</i> <a href="https://github.com/BritishGeologicalSurvey/geo-ner-model">Geo NER Model</a></li>
-						<li><i>2020-01:</i> <a href="https://github.com/BritishGeologicalSurvey/disolv">DISOLV</a> - borehole dilution test calculator</li>
-						<li><i>2020-10:</i> <a href="https://github.com/BritishGeologicalSurvey/stratigraph">Stratigraph</a></li>
+						<li><i>2019-03:</i> <a href="https://github.com/BritishGeologicalSurvey/O1362-observations">Viewing geotagged photos in QGIS</a> - how to</li>
+						<li><i>2019-09:</i> <a href="https://github.com/BritishGeologicalSurvey/etlhelper">ETL Helper</a> - data transfer tool</li>
+						<li><i>2019-10:</i> <a href="https://github.com/BritishGeologicalSurvey/geo-ner-model">Geo NER Model</a> - machine learning model</li>
+						<li><i>2020-01:</i> <a href="https://github.com/BritishGeologicalSurvey/disolv">DISOLV</a> - groundwater modelling tool</li>
+						<li><i>2020-10:</i> <a href="https://github.com/BritishGeologicalSurvey/stratigraph">Stratigraph</a> - relative rock ages from text</li>
 						</ul>
 					</section>
 
@@ -136,7 +149,7 @@
 					<section data-transition="fade-in slide-out">
 						<h4>Conclusion</h4>
 						<ul>
-						<li>Git training and pair programming</li>
+						<li>Git and coding training <i>and</i> pair programming</li>
 						<li>Listen to security concerns and mitigate them</li>
 						<li>Try open source on independent projects first</li>
 						<li>Extract common code into open reusable libraries</li>
@@ -161,6 +174,11 @@
 
 ```
 						</textarea>
+					<aside data-markdown class="notes">
+						+ ETL Helper was written to simplify installation of Oracle libraries and allow database 
+						administrators with little Python experience to be able to easily transfer data.
+						+ 3 external contributions, 37 starts, 15k downloads.
+					</aside>
 					</section>
 					<section>
 						<img class="stretch" src="https://raw.githubusercontent.com/BritishGeologicalSurvey/etlhelper/main/docs/screencast.gif">
@@ -179,6 +197,9 @@
 						</ul>
 						<img class="stretch" src="images/sensor_things_api_architecture.png">
 					</section>
+					<aside data-markdown class="notes">
+						The model of open source components around central Oracle database is a way to gradually open things up.
+					</aside>
 				</section>
 			</div>
 		</div>
