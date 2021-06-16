@@ -1,6 +1,6 @@
 # coding-in-the-open
 
-Talk for Coding in the Open event, 15 June 2021
+Talk for [Coding in the Open event](https://codingedi.github.io), 15 June 2021
 
 The talk was recorded and is available on YouTube at [https://www.youtube.com/watch?v=6xiYu70R1x4&t=1446s](https://www.youtube.com/watch?v=6xiYu70R1x4&t=1446s).  It is about 25 minutes long.
 
